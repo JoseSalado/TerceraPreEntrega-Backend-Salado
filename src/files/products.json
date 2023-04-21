@@ -1,0 +1,32 @@
+[
+	{
+        "id": 1,
+		"title": "Sorrentino Jamon Y Queso",
+		"description": "911",
+		"price": 450,
+		"thumbnail": "No",
+		"code": "jyq",
+		"stock": 50
+		
+	},
+	{
+        "id": 2,
+		"title": "Sorrentino Calabaza y Queso",
+		"description": "458",
+		"price": 400,
+		"thumbnail": "No",
+		"code": "cyq",
+		"stock": 50
+		
+	},
+	{
+        "id": 3,
+		"title": "Sorrentino Ternera y Queso",
+		"description": "Aventador",
+		"price": 500,
+		"thumbnail": "No",
+		"code": "tyq",
+		"stock": 50
+		
+	}
+]

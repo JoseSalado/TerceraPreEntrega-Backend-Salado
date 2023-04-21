@@ -1,0 +1,23 @@
+<h1>Productos</h1>
+<h2>Hola {{user.name}} {{user.lastname}}</h2>
+
+{{#if error}}
+<p>{{error}}</p>
+{{/if}}
+
+<div class="items">
+  {{#each docs}}
+    <div class="card">
+      <h2>{{title}}</h2>
+      <p>{{description}}</p>
+      <p>Price: ${{price}}</p>
+    </div>
+  {{/each}}
+</div>
+
+<hr>
+<a href="{{products.prevPage}}">Prev Page</a>
+<p>{{products.page}}</p>
+<a href="{{products.nextPage}}">Next Page</a>
+
+<script src="/js/products.js"></script>  
